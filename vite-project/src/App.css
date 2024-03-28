@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.block {
+  margin: 0 20px;
+}
+
+input, button {
+  margin-bottom: 10px;
+}
+
+.add-button, .ok-button {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.message {
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+}
